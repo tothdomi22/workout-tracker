@@ -12,7 +12,7 @@ public class IndexController {
         return new RedirectView("/index.html");
     }
 
-    @GetMapping("/helloworld")
+    @GetMapping("/hello")
     public String test() {
         return "Hello world!";
     }

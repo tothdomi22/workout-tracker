@@ -17,5 +17,6 @@ public class Session {
 
     @Column(name = "sets_and_reps")
     private String sets_and_reps;
+    
 
 }
